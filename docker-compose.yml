@@ -9,6 +9,9 @@ services:
         build: ./master
         stdin_open: true
         tty: true
+        ports:
+            - "7557:7557"
+            - "2910:2910"
         expose:
             - 7557
             - 2910
