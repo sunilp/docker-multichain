@@ -29,10 +29,10 @@ services:
             RPC_PASSWORD: this-is-insecure-change-it
             RPC_ALLOW_IP: 0.0.0.0/0.0.0.0
             PARAM_TARGET_BLOCK_SIZE: target-block-time|30
-            PARAM_ANYONE_CAN_CONNECT: anyone-can-connect|false
-            PARAM_ANYONE_CAN_MINE: anyone-can-mine|false
-            PARAM_ALLOW_P2SH_OUTPUTS: allow-p2sh-outputs|true
-            PARAM_ALLOW_MULTISIG_OUTPUTS: allow-multisig-outputs|true
+            PARAM_ANYONE_CAN_CONNECT: anyone-can-connect|true
+            PARAM_ANYONE_CAN_MINE: anyone-can-mine|true
+            #PARAM_ALLOW_P2SH_OUTPUTS: allow-p2sh-outputs|true
+            #PARAM_ALLOW_MULTISIG_OUTPUTS: allow-multisig-outputs|true
     slavenode:
         build: ./node
         stdin_open: true
