@@ -1,6 +1,12 @@
 version: '2'
 
 services:
+    dynamodb:
+        image: dwmkerr/dynamodb
+        tty: true
+        ports:
+            - "8000:8000"
+
     # basenode:
     #     build: ./base
     #     stdin_open: true
