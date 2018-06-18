@@ -11,11 +11,11 @@ services:
         tty: true
         expose:
             - 7557
-            - 8002
+            - 2910
         environment:
-            CHAINNAME: MyChain
+            CHAINNAME: registryv3
             NETWORK_PORT: 7557
-            RPC_PORT: 8002
+            RPC_PORT: 2910
             RPC_USER: multichainrpc
             RPC_PASSWORD: this-is-insecure-change-it
             RPC_ALLOW_IP: 0.0.0.0/0.0.0.0
@@ -28,11 +28,11 @@ services:
         tty: true
         expose:
             - 7557
-            - 8002
+            - 2910
         environment:
-            CHAINNAME: MyChain
+            CHAINNAME: registryv3
             NETWORK_PORT: 7557
-            RPC_PORT: 8002
+            RPC_PORT: 2910
             RPC_USER: multichainrpc
             RPC_PASSWORD: this-is-insecure-change-it
             RPC_ALLOW_IP: 0.0.0.0/0.0.0.0
@@ -48,11 +48,11 @@ services:
         expose:
             - 2750
             - 7557
-            - 8002
+            - 2910
         environment:
-            CHAINNAME: MyChain
+            CHAINNAME: registryv3
             NETWORK_PORT: 7557
-            RPC_PORT: 8002
+            RPC_PORT: 2910
             RPC_USER: multichainrpc
             RPC_PASSWORD: this-is-insecure-change-it
             RPC_ALLOW_IP: 0.0.0.0/0.0.0.0
