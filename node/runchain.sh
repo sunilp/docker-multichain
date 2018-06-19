@@ -13,4 +13,4 @@ rpcport=$RPC_PORT
 EOF
 
 echo "Start the chain"
-multichaind -txindex -printtoconsole -shrinkdebugfilesize -autosubscribe=streams $CHAINNAME@$MASTER_NODE:$NETWORK_PORT
+multichaind -txindex -printtoconsole -shrinkdebugfilesize -autosubscribe=streams,assets $CHAINNAME@$MASTER_NODE:$NETWORK_PORT
