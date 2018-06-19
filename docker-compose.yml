@@ -30,7 +30,7 @@ services:
             RPC_ALLOW_IP: 0.0.0.0/0.0.0.0
             PARAM_TARGET_BLOCK_SIZE: target-block-time|30
             PARAM_ANYONE_CAN_CONNECT: anyone-can-connect|true
-            PARAM_ANYONE_CAN_MINE: anyone-can-mine|false
+            PARAM_ANYONE_CAN_MINE: anyone-can-mine|true
             PARAM_ANYONE_CAN_RECEIVE: anyone-can-receive|true
             PARAM_ANYONE_CAN_SEND: anyone-can-send|true
             #PARAM_ALLOW_P2SH_OUTPUTS: allow-p2sh-outputs|true
