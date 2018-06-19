@@ -1,4 +1,4 @@
-FROM kunstmaan/node-multichain
+FROM ../node
 MAINTAINER Kunstmaan
 
 RUN apt-get update \

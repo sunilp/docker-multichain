@@ -1,4 +1,4 @@
-FROM kunstmaan/base-multichain
+FROM ../base
 MAINTAINER Kunstmaan
 
 COPY ./runchain.sh /root/runchain.sh
