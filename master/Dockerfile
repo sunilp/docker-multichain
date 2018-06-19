@@ -1,5 +1,5 @@
-FROM ../base
-MAINTAINER Kunstmaan
+FROM sunilp/base-multichain
+MAINTAINER sunilp
 
 COPY ./runchain.sh /root/runchain.sh
 COPY ./blocknotify.sh /root/blocknotify.sh

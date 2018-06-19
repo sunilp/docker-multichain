@@ -1,5 +1,5 @@
-FROM ../node
-MAINTAINER Kunstmaan
+FROM sunilp/node-multichain
+MAINTAINER sunilp
 
 RUN apt-get update \
         && apt-get install -q -y python python-dev python-pip sqlite3 libsqlite3-dev \
