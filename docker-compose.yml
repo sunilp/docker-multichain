@@ -1,6 +1,10 @@
 version: '2'
 
 services:
+    base:
+        build: ./base
+        image: sunilp/base-multichain
+
     dynamodb:
         image: dwmkerr/dynamodb
         tty: true
@@ -13,6 +17,7 @@ services:
     #     tty: true
     masternode:
         build: ./master
+        image: sunilp/master-multichain
         stdin_open: true
         tty: true
         ports:
@@ -37,6 +42,7 @@ services:
             #PARAM_ALLOW_MULTISIG_OUTPUTS: allow-multisig-outputs|true
     slavenode:
         build: ./node
+        image: sunilp/node-multichain
         stdin_open: true
         tty: true
         expose:
